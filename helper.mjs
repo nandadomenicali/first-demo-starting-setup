@@ -1,5 +1,3 @@
-import { rejects } from "assert"
-
 const connectToDatabase = () => {
     const dummyPromise = new Promise((resolve, reject) => {
         setTimeout(() => {
